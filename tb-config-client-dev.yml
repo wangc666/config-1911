@@ -3,8 +3,12 @@ my:
   gender: 男
 
 spring:
-  application:
-    name: tb-feign
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1911?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
   redis:
     database: 0
     host: localhost
